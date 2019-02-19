@@ -6,9 +6,9 @@ About MD:
    In initialization (init.sh), we set the protein in water environment with periodic boundary condition and perform energy minimization;
    In equilibration (equilibration.sh), NVT for 500 ps and NPT for 500 ps with position restrain on protein;
    In replica process (MD_product_replica.sh), we simulate ten MD processes (NPT) independently, 10 ns for each.
-2. The detailed settings for MD can be seen at 'mdp' directory, and the PDB files we use are stored at 'PDB' directory.
+2. The detailed settings for MD can be seen in 'mdp' directory, and the PDB files we use are stored in 'PDB' directory.
 3. The results are in 'output**_****_*K' directory.
 
 About result analysis:
-1. The code to analyse the result is at 'Analysis' directory.
+1. The code to analyse the result is in 'Analysis' directory.
 2. Python package 'MDAnalysis' is required.
